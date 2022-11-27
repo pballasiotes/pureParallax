@@ -1,8 +1,8 @@
 # pureParallax.js
 
-pureParallax.js is an easy to use and extremely lightweight (Only 1.4 Kb) Vanilla JS library that adds parallax animations on any images or elements.
+pureParallax.js is an easy to use, high-performace and lightweight (only 4.8 Kb) vanilla JS plugin that adds parallax animations on backgrounds, images and elements.
 
-What stands out with pureParallax.js is it's ease of use and implementation. Adding parallax effects to elements or images can be done quickly and easily, all without having to touch any JS. It can be used on elements with any type of positioning (relative, absolute, fixed, ...). It works on css background images,  inline images, and any type of html element.
+What stands out with pureParallax.js is it's ease of use and customization. Adding parallax effects to elements or images can be done quickly and easily, all without having to touch any JS. It can be used on elements with any type of positioning (relative, absolute, fixed, ...). It works on css background images,  inline images, and any type of html element.
 
 ## How it works
 pureParallax.js works by adjusting the translateY or translateX value for CSS transform proporty of the element. For background images it adjusts the background-postition and background-size (if needed). The default starting point for the element/background parallax effect is the center of the element in the center of the element container. The starting point can be adjusted anywhere in the container. The top selectors' starting point is always the top of the page, with offset for the header (if option is set). It's pretty rad! 
