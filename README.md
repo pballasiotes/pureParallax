@@ -29,7 +29,7 @@ pureParallax({
 });
 ```
 
-HTML: Add a 'data-depth' attribute to any element.
+HTML: Add a 'data-depth' attribute to any element. (The selector can be changed in the options)
 
 ```html
   <div>
@@ -41,25 +41,7 @@ and you'll be running!
 
 ___
 
-
-Change the parallax axis by adding a 'parallax-x' class to the element
-
-```html
-  <div data-depth=".3" class="parallax-x">
-```
-
-Parallax a background image on a element
-
-```html
-  <div data-depth=".35" class="parallax-bg">
-```
-
-Parallax an element or background image at the top of a page like this:
-
-```html
-  <div data-depth=".35" class="parallax-bg-top"></div>
-  <div data-depth=".35" class="parallax-top"></div>
-```
+## HTML
 
 ### Default Usage
 ```html
@@ -68,28 +50,33 @@ Parallax an element or background image at the top of a page like this:
 
 ### Background Images
 ```html
-<div data-depth=".35" class="parallax-bg">
+<div data-depth=".3" class="parallax-bg">
 ```
 
 ### Top of Page Elements
   
-When elements are at the top of the page. To prevent any lag, add the 'parallax-top' class. 
+When elements are at the top of the page add the 'parallax-top' class. 
   
 ```html
-<div data-depth=".35" class="parallax-top">
-```
-
-### Top of Page background Images
-```html
-<div data-depth=".35" class="parallax-bg-top">
+<div data-depth=".3" class="parallax-top">
 ```
 
 When backgrounds are at the top of page, add the 'parallax-bg-top' class.
 
+### Top of Page background Images
+```html
+<div data-depth=".3" class="parallax-bg-top">
+```
 
-## Methods
+### Change the parallax axis by adding a 'parallax-x' class
 
-### Change Selectors
+```html
+  <div data-depth=".3" class="parallax-x">
+```
+
+## Options (JS)
+
+### Change the selectors and options
 By default, the selector is [data-depth] attribute
   
 ```javascript
@@ -117,14 +104,7 @@ pureParallax({
   minWidth: 64 // Minimum window width in EMs
 });
 ```
-  
-### Example Usage (Default) -- Settings are optional
-
-```javascript
-pureParallax({
-});
-```
-
+ 
 
 ## Examples
 You can find all the examples [here](https://pbalweb.com/pureParallax).
