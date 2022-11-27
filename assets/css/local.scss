@@ -1,0 +1,138 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+} 
+body {
+	overflow-x: hidden;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height:1em;
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+} 
+
+#hd {
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 100;
+	height: 4em;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 0;
+}
+p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+} 
+ 
+.section {
+	position: relative;
+	overflow: hidden;
+	padding:  4em 0;
+	
+	&.section1 {
+		margin-top: 4em;
+		padding: 0;
+	}
+	&.section2 {
+		height: 40em;
+	}
+	&:nth-of-type(1n){
+		background: rgba(#999,.2);
+	}
+	&:nth-of-type(2n){
+		background: rgba(#999,.6);
+	}
+	&:nth-of-type(3n){
+		background: rgba(#999,.4);
+	}
+	&.btm {
+		padding: 2em 0;
+		background: rgba(#999,.8);
+	}
+}
+
+.cols {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	align-items:stretch;
+	gap: 2em;
+}
+
+.col50 {
+	width: 50%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	position: relative;
+	padding: 4em 0;
+}
+p {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	color: #fff;
+}
+		
+.bg1 {
+	background: url("../images/bg1.jpg") center center / cover no-repeat;
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.bg2 {
+	background: url("../images/bg2.jpg") center center / cover no-repeat;
+	position: absolute;
+	top:0;
+	right:0;
+	bottom: 0;
+	left: 0;
+}
+
+.box {
+	padding: 0.6em;
+	background: rgba(#222,1);
+	position: relative;
+}
+.box2 {
+	display: inline-block;
+	background: rgba(#222,.9);
+	position: absolute;
+	top:50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+.box3 { 
+	display: inline-block;
+	position: absolute;
+	top:calc(50% - 5em);
+	width: 12em;
+	height: 12em;
+	right: 0;
+	z-index: 100;
+}
