@@ -114,7 +114,7 @@ You can find all the examples [here](https://pbalweb.com/pureParallax).
 |---|---|---|---|---|---|
 | 16+ | 55+ | 58+ | 12.1+ | 45+ | 12.2+ |
 
-Extra Wide Browser Support Including IE9 and Edge!
+Full Browser Support Edge and Safari.
 
 ## Author
 
