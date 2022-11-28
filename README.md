@@ -82,16 +82,16 @@ By default, the selector is [data-depth] attribute
 ```javascript
 pureParallax({
     selector: '[data-depth]',
-		axisSelector: 'parallax-x',
-		bgSelector: 'parallax-bg',
-		bgTopSelector: 'parallax-bg-top',
-		topSelector: 'parallax-top',
-		btmSelector: 'parallax-btm',
-		container: 'section',
-		offsetHeader: true, 
-		headerId: 'hd',
-		minWidth: 64,
-		oldBrowserSupport: 'false'
+    axisSelector: 'parallax-x',
+    bgSelector: 'parallax-bg',
+    bgTopSelector: 'parallax-bg-top',
+    topSelector: 'parallax-top',
+    btmSelector: 'parallax-btm',
+    container: 'section',
+    offsetHeader: true, 
+    headerId: 'hd',
+    minWidth: 64,
+    oldBrowserSupport: 'false'
 });
 ```
 
