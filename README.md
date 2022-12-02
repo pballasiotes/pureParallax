@@ -74,6 +74,12 @@ When backgrounds are at the top of page, add the 'parallax-bg-top' class.
   <div data-depth=".3" class="parallax-x">
 ```
 
+### Choose parent section for a specific element (selector is a class name)
+
+```html
+  <div data-depth=".3" data-container="titletext">
+```
+
 ## Options (JS)
 
 ### Change the selectors and options
