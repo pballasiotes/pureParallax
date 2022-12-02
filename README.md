@@ -113,7 +113,7 @@ pureParallax({
  
 
 ## Examples
-You can find all the examples [here](http://pbalweb.com/pureParallax).
+You can find all the examples [here](http://www.pbalweb.com/pureParallax/).
 
 ## Compatibility
 | Edge | Firefox | Chrome | Safari | Opera | iOS Safari |
