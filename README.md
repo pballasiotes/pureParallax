@@ -1,6 +1,6 @@
 # pureParallax.js
 
-pureParallax.js is an easy to use, high-performace and lightweight (only 4.8 Kb) vanilla JS plugin that adds parallax animations on backgrounds, images and elements.
+pureParallax.js is an easy to use, high-performance and lightweight (only 4.8 Kb) vanilla JS plugin that adds parallax animations on backgrounds, images and elements.
 
 What stands out with pureParallax.js is it's ease of use and customization. Adding parallax effects to elements or images can be done quickly and easily, all without having to touch any JS. It can be used on elements with any type of positioning (relative, absolute, fixed, ...). It works on css background images,  inline images, and any type of html element.
 
