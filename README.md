@@ -54,14 +54,9 @@ ___
 ```
 
 ### Top of Page Elements
-  
-When elements are at the top of the page add the 'parallax-top' class. 
-  
 ```html
 <div data-depth=".3" class="parallax-top">
 ```
-
-When backgrounds are at the top of page, add the 'parallax-bg-top' class.
 
 ### Top of Page background Images
 ```html
@@ -69,13 +64,11 @@ When backgrounds are at the top of page, add the 'parallax-bg-top' class.
 ```
 
 ### Change the parallax axis by adding a 'parallax-x' class
-
 ```html
   <div data-depth=".3" class="parallax-x">
 ```
 
 ### Choose parent section for a specific element (selector is a class name)
-
 ```html
   <div data-depth=".3" data-container="titletext">
 ```
@@ -83,7 +76,7 @@ When backgrounds are at the top of page, add the 'parallax-bg-top' class.
 ## Options (JS)
 
 ### Change the selectors and options
-By default, the selector is [data-depth] attribute
+By default, the selector is [data-depth] attribute. The rest of the selectors are class names.
   
 ```javascript
 pureParallax({
